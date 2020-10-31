@@ -1,0 +1,14 @@
+//Aqui vamos a crear un objeto con las configuraciones que previamente
+//instalamos. Pero que instalamos?
+//Babel-Core - que incluye todas la herramientas para transformar a codigo moderno nuestro js
+//babel-loader - que se encarga de trabajar con webpack
+//presert-env & preset-react - nos van a ayudar a entender y transformar nuestro codigo
+//en este caso js y tambien de react
+
+{
+    "presets": [
+        //Uno servira para trabajar con ec5 6 y el otro para trabjar con jsx y react
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
